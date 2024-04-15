@@ -20,14 +20,14 @@ public class Human {
         System.out.println(getSecret());
     }
 
-    private String getSecret() {return "Секрет";}
+    private String getSecret() {return secret;}
     public  String getNews(){
-        return "Новости";
+        return news;
     }
     protected String getExperience(){
-        return "Опыт";
+        return experience;
     }
     String getGossip(){
-        return "Сплетни";
+        return gossip;
     }
 }
